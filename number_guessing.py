@@ -29,8 +29,10 @@ while True :
     if user_guess == random_number:
         print('you got it right!')
         break
+    elif user_guess > random_number:
+        print('you were above the number!')
     else:
-        print('you got it wrong!')
+        print('you were below the number!')
     
 
 
